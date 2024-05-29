@@ -1,0 +1,301 @@
+body{
+    background-color: #EBEBEB;  
+    width: 980px; 
+    padding: 0;
+    margin: 0 auto !important;
+    
+}
+
+#titulos{
+    width:200px;
+    height: 70px;
+    margin-left: 50px;
+    display: grid;
+}
+
+h1{
+    font-size: 20px;
+    color:#1BB4E8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top:0px;
+    font-size: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+
+#barco{
+    float: left;
+    display: inline;
+    
+}
+
+#principal{
+    background-color: #21272B;
+    padding: 20px;
+    height: 60px;
+    display: flex;
+
+
+    
+}
+
+.main{
+    background-color: white;
+    padding-top:10px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 525px;
+    margin-top: -3px;
+    
+    
+}
+
+
+.adicional{
+    background-color: #1a3243bb;
+    width: 435px;
+    height: 195px;
+    position: absolute;
+    left: 735px;
+    bottom: 200px;
+    padding: 10px;
+    color: white;
+    border-top: 0px;
+}
+
+.adicional p{
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    border-right: white 1px solid;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 13px;
+    
+    
+
+}
+
+nav li a:hover {
+    color: #1BB4E8;
+}
+
+
+nav li{
+    display: inline-block;
+    
+
+   
+}
+
+
+nav li:last-child a {
+    border-right: none;
+}
+
+#links{
+    position: absolute;
+    left: 490px;
+    top: 45px;
+    color: white;
+
+
+}
+
+#cor{
+    color: #C6B07F;
+    display: inline;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 0px;
+}
+
+
+#especifico img{
+    float: left;
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+#especifico p{
+    display: inline;
+    font-size: 19px;
+    padding: 0px;
+    
+}
+
+#barco.principal{
+    height: 495px;
+}
+
+#corpo-destino{
+    background-color: #1BB4E8;
+    margin: 0px;
+    height: 40px;
+    margin-right: 13px;
+    width: 440px;
+}
+
+#corpo-destino h3{
+    margin-top: 9px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 4px;
+    
+
+}
+
+#corpo-destino img{
+    float:left;
+}
+
+
+#destino{
+    margin-right: 20px;
+}
+
+#destino p{
+    margin-top: 18px;
+    margin-bottom: 34px;
+    text-align: left;
+    font-size: 15px;
+
+    
+}
+
+#destino h4{
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 9px;
+    margin-right: 1px;
+    width: 400px;
+
+}
+
+#foto-destinos img{
+width: 440px;
+height: 231px;
+}
+
+
+
+#corpo-frota{
+    background-color: #C6B07F;
+    margin: 0px;
+    height: 40px;
+    width: 98%;
+    
+}
+
+#corpo-frota h3{
+    margin-top: 9px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 4px;
+}
+
+#corpo-frota img{
+    float:left;
+    position: relative;
+    top: 2px;
+    margin-left: 4px;
+    
+    
+}
+
+#frota h4{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 1px;
+    
+
+}
+
+#frota p{
+    margin-bottom: 5.4px;
+    font-size: 15.5px;
+    margin-right: 15px;
+}
+
+#frota{
+    margin-left: 6px;
+}
+
+#fotos-frota img{
+    width: 210px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    
+
+
+}
+
+#fotos-frota img:last-child,
+#fotos-frota img:nth-child(2){
+    margin-left: 5px;
+}
+
+
+#fotos-frota{
+    display: flex;
+    flex-wrap: wrap;
+    width: 448px;
+
+}
+
+#final{
+    background-color: #21272b21;
+    height: 60px;
+    width: 980px;
+    margin-left: none;
+    position: absolute;
+    display: inline;
+    top: 1070px;
+
+}
+
+#final p{
+    margin-left: 30px;
+    margin-top: 28px;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+    
+
+
+
